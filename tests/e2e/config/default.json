@@ -1,0 +1,24 @@
+{
+  "url": "http://localhost:8889/",
+  "users": {
+	"admin": {
+	  "username": "admin",
+	  "password": "password"
+	}
+  },
+  "addresses": {
+	"admin": {
+	  "store": {
+		"firstname": "Ivan",
+		"lastname": "Ivanov",
+		"company": "Elje",
+		"country": "Russian Federation",
+		"addressfirstline": "addr 1",
+		"addresssecondline": "addr 2",
+		"city": "Moscow",
+		"state": "Moscow",
+		"postcode": "102030"
+	  }
+	}
+  }
+}

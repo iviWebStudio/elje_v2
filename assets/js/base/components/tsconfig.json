@@ -1,0 +1,12 @@
+{
+	"extends": "../../../../tsconfig.base.json",
+	"compilerOptions": {},
+	"include": [
+	  ".",
+	  "../../types",
+	  "../context",
+	  "../../type-defs",
+	  "../hocs"
+	],
+	"exclude": [ "**/test/**" ]
+}

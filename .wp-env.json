@@ -1,0 +1,14 @@
+{
+  "core": null,
+  "plugins": [
+	"https://github.com/WP-API/Basic-Auth/archive/master.zip",
+	"."
+  ],
+  "mappings": {
+	".htaccess": "./bin/.htaccess"
+  },
+  "config": {
+	"JETPACK_AUTOLOAD_DEV": true,
+	"SCRIPT_DEBUG": false
+  }
+}

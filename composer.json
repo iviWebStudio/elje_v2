@@ -1,0 +1,48 @@
+{
+  "name": "elje/elje",
+  "description": "ELJE is a Gutenberg block Plugin for managing site setting and creating dynamic blog listing, grid, slider etc.",
+  "homepage": "https://elje-group.com/",
+  "type": "wordpress-plugin",
+  "license": "proprietary",
+  "prefer-stable": true,
+  "minimum-stability": "dev",
+  "require": {
+	"composer/installers": "^1.7.0",
+	"automattic/jetpack-autoloader": "^2.9.1"
+  },
+  "require-dev": {
+	"wp-phpunit/wp-phpunit": "^5.4",
+	"yoast/phpunit-polyfills": "^1.0",
+	"johnbillion/wp-hooks-generator": "0.6.1",
+	"mockery/mockery": "^1.4"
+  },
+  "autoload": {
+	"psr-4": {
+	  "Elje\\Blocks\\": "src/"
+	}
+  },
+  "autoload-dev": {
+	"psr-4": {
+	  "Elje\\Blocks\\Tests\\": "tests/php"
+	}
+  },
+  "scripts": {
+	"phpcs": [
+	  "phpcs --extensions=php -s -p"
+	],
+	"phpcbf": [
+	  "phpcbf -p"
+	]
+  },
+  "config": {
+	"platform": {
+	  "php": "7.4.24"
+	}
+  },
+  "extra": {
+	"scripts-description": {
+	  "phpcs": "Analyze code against the WordPress coding standards with PHP_CodeSniffer",
+	  "phpcbf": "Fix coding standards warnings/errors automatically with PHP Code Beautifier"
+	}
+  }
+}

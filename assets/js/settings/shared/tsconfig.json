@@ -1,0 +1,9 @@
+{
+	"extends": "../../../../tsconfig.base.json",
+	"include": [
+		".",
+		"../../type-defs",
+		"../../types/",
+		"../../mapped-types.ts"
+	]
+}

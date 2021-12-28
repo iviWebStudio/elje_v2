@@ -1,0 +1,107 @@
+{
+  "exclude": [
+	"node_modules"
+  ],
+  "compilerOptions": {
+	"outDir": "./build",
+	"sourceMap": true,
+	"baseUrl": ".",
+	"module": "esnext",
+	"emitDeclarationOnly": true,
+	"esModuleInterop": true,
+	"exactOptionalPropertyTypes": true,
+	"resolveJsonModule": true,
+	"jsx": "preserve",
+	"target": "esnext",
+	"allowJs": true,
+	"moduleResolution": "node",
+	"lib": [
+	  "dom",
+	  "esnext"
+	],
+	"checkJs": true,
+	"strict": true,
+	"strictNullChecks": true,
+	"allowSyntheticDefaultImports": true,
+	"composite": true,
+	"rootDir": ".",
+	"typeRoots": [
+	  "./node_modules/@types"
+	],
+	"types": [
+	  "jest",
+	  "jquery"
+	],
+	"paths": {
+	  "@elje/atomic-blocks": [
+		"assets/js/base/atomic/blocks"
+	  ],
+	  "@elje/atomic-blocks/*": [
+		"assets/js/base/atomic/blocks/*"
+	  ],
+	  "@elje/atomic-utils": [
+		"assets/js/atomic/utils"
+	  ],
+	  "@elje/base-components/*": [
+		"assets/js/base/components/*"
+	  ],
+	  "@elje/base-context": [
+		"assets/js/base/context"
+	  ],
+	  "@elje/base-context/hooks": [
+		"assets/js/base/context/hooks"
+	  ],
+	  "@elje/base-context/components": [
+		"assets/js/base/context/components"
+	  ],
+	  "@elje/base-hocs/*": [
+		"assets/js/base/hocs/*"
+	  ],
+	  "@elje/base-hooks": [
+		"assets/js/base/hooks"
+	  ],
+	  "@elje/base-utils": [
+		"assets/js/base/utils"
+	  ],
+	  "@elje/editor-components/*": [
+		"assets/js/editor-components/*"
+	  ],
+	  "@elje/block-data": [
+		"assets/js/data"
+	  ],
+	  "@elje/block-hocs": [
+		"assets/js/hocs"
+	  ],
+	  "@elje/blocks-registry": [
+		"assets/js/blocks-registry"
+	  ],
+	  "@elje/price-format": [
+		"packages/prices"
+	  ],
+	  "@elje/block-settings": [
+		"assets/js/settings/blocks"
+	  ],
+	  "@elje/icons": [
+		"assets/js/icons"
+	  ],
+	  "@elje/resource-previews": [
+		"assets/js/previews"
+	  ],
+	  "@elje/settings": [
+		"assets/js/settings/shared"
+	  ],
+	  "@elje/shared-context": [
+		"assets/js/shared/context"
+	  ],
+	  "@elje/shared-hocs": [
+		"assets/js/shared/hocs"
+	  ],
+	  "@elje/type-defs/*": [
+		"assets/js/types/type-defs/*"
+	  ],
+	  "@elje/types": [
+		"assets/js/types"
+	  ]
+	}
+  }
+}

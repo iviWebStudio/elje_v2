@@ -1,0 +1,4 @@
+.elje-block-components-post-name {
+	@include font-size(regular);
+	@include wrap-break-word();
+}
